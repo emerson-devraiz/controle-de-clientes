@@ -9,5 +9,5 @@ interface DatabaseInterface
     public function startTransaction(): void;
     public function commit(): void;
     public function rollback(): void;
-    public function throwException(mixed $query, string $sql): void;
+    public function throwException(mixed $query, string $message): void;
 }

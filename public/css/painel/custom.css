@@ -1,0 +1,62 @@
+.not-arrow::after {
+    content: none;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-link {
+    line-height: 38px;
+}
+
+.nav-link:hover {
+    background-color: #212529;
+}
+
+.width-form {
+    width: 40rem;
+}
+
+.dropdown-rounded
+{
+    padding: 5px;
+    border-radius: 15px;
+    width: 30px;
+    line-height: 18px;
+    background: transparent;
+    border-color: transparent !important;
+}
+
+.dropdown-rounded::after
+{
+    content: none;
+}
+
+.light-hover:hover
+{
+    background-color: #e3e3e3;
+}
+
+.dropdown-item:active
+{
+    color: inherit;
+    background-color: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+    .width-form {
+        width: 100%;
+    }
+}
+
+.btn-form
+{
+    width: 112px;
+}
+
+.pagination
+{
+    margin-bottom: 0px !important;
+}

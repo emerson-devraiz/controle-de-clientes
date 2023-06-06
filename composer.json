@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "cleanarchitecture\\": "src/"
+        }
+    },
+    "require": {
+        "php-di/php-di": "^7.0"
+    }
+}
